@@ -1,7 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/projImg1.png";
-import projImg2 from "../assets/img/projImg3.jpeg";
+import projImg2 from "../assets/img/projImg2.png";
 import projImg3 from "../assets/img/projImg3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -11,22 +11,22 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Chat Application",
-      description: "Design & Development",
-      imgUrl: projImg1,
-      link: "https://chatapp-frontend-muvl.vercel.app/"
-    },
-    {
-      title: "Video Chat Application",
-      description: "Design & Development",
-      imgUrl: projImg2,
-      link: "https://github.com/geetika1312/VC"
-    },
-    {
-      title: "IPL Winning Prediction",
+      title: "Chat Dynamic Kanban Board",
       description: "Design & Development",
       imgUrl: projImg3,
-      link: "https://github.com/geetika1312/IPL-Winning-Prediction"
+      link: "https://dynamic-kanban-board-beige.vercel.app/"
+    },
+    {
+      title: "Shophub",
+      description: "Design & Development",
+      imgUrl: projImg2,
+      link: "https://shophub-two-gilt.vercel.app/"
+    },
+    {
+      title: "Pixora",
+      description: "Design & Development",
+      imgUrl: projImg1,
+      link: "https://https://pixora-rose.vercel.app/.com/geetika1312/IPL-Winning-Prediction"
     },
   ];
 

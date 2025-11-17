@@ -420,7 +420,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 15px;
   overflow: hidden;
   margin-bottom: 16px;
-  height: 200px; /* Reduced height */
+  height: 320px; /* Reduced height */
   width: 100%; /* Full width of the container */
 }
 .proj-imgbx img {

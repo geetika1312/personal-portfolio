@@ -40,23 +40,23 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={meter2} alt="Node.js skill level" />
-                  <h5>Node.js</h5>
+                  <h5>React Native</h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="Express.js skill level" />
-                  <h5>Express.js</h5>
+                  <h5>JavaScript</h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="MongoDB skill level" />
-                  <h5>MongoDB</h5>
+                  <h5>Typescript</h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="Java skill level" />
-                  <h5>Java</h5>
+                  <h5>Tailwind CSS</h5>
                 </div>
                 <div className="item">
                   <img src={meter1} alt="JavaScript skill level" />
-                  <h5>JavaScript</h5>
+                  <h5>CSS</h5>
                 </div>
               </Carousel>
             </div>
