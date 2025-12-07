@@ -1,31 +1,39 @@
-import { Container, Row, Col } from "react-bootstrap";
-import logo from '../assets/img/logo.png';
-import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
-import navIcon4 from '../assets/img/nav-icon4.svg';
-import navIcon5 from '../assets/img/nav-icon5.webp';
+import { Container } from "react-bootstrap";
+import logo from "../assets/img/logo.png";
+import emailIcon from "../assets/img/nav-icon3.svg";
+import linkedInIcon from "../assets/img/nav-icon2.svg";
 
 export const Footer = () => {
   return (
-    <footer className="footer">
-      <Container>
-        <Row className="align-items-center">
-          <Col size={12} sm={6}>
-            <img src={logo} alt="Logo" />
-          </Col>
-          <Col size={12} sm={6} className="text-center text-sm-end">
-              {/* <div className="social-icon">
-                <a href="https://www.linkedin.com/in/geetika-bajpai-863640249"><img src={navIcon1} alt="" /></a>
-                <a href="https://www.facebook.com/geetika.bajpai.184"><img src={navIcon2} alt="" /></a>
-                <a href="https://instagram.com/geetika1315?igshid=NGExMmI2YTkyZg=="><img src={navIcon3} alt="" /></a>
-                <a href="https://github.com/geetika1312"><img src={navIcon4} alt="" /></a>
-                <a href="https://dev.to/geetika_bajpai_a654bfd1e0"><img src={navIcon5} alt="" /></a>
-              </div> */}
-            <p>Copyright 2022. All Rights Reserved</p>
-          </Col>
-        </Row>
+    <footer className="footer-section">
+      <Container className="text-center">
+        
+        <div className="footer-logo">
+          <img src={logo} alt="Logo" className="logo-img" />
+        </div>
+
+        <p className="footer-subtitle">Get in Touch</p>
+        <h2 className="footer-title">Contact Me</h2>
+
+        <div className="footer-contact-box d-flex justify-content-center flex-wrap align-items-center gap-4">
+
+          <a href="mailto:geetikabajpai03@gmail.com" className="footer-contact-item d-flex align-items-center gap-2">
+            <img src={emailIcon} alt="Email" className="icon" />
+            <span>geetikabajpai03@gmail.com</span>
+          </a>
+
+          <a href="https://www.linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-contact-item d-flex align-items-center gap-2">
+            <img src={linkedInIcon} alt="LinkedIn" className="icon" />
+            <span>LinkedIn</span>
+          </a>
+
+        </div>
+
+        <p className="footer-copy">© 2023 Geetika Bajpai. All Rights Reserved.</p>
       </Container>
     </footer>
-  )
-}
+  );
+};
