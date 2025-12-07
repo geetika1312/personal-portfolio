@@ -39,24 +39,40 @@ export const Skills = () => {
                   <h5>React.js</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Node.js skill level" />
+                  <img src={meter2} alt="React Native skill level" />
                   <h5>React Native</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Express.js skill level" />
+                  <img src={meter3} alt="Javascript skill level" />
                   <h5>JavaScript</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="MongoDB skill level" />
+                  <img src={meter3} alt="Typescript skill level" />
                   <h5>Typescript</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Java skill level" />
+                  <img src={meter3} alt="Tailwind CSS skill level" />
                   <h5>Tailwind CSS</h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="JavaScript skill level" />
+                  <img src={meter1} alt="HTML skill level" />
+                  <h5>HTML</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="CSS skill level" />
                   <h5>CSS</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="DBMS skill level" />
+                  <h5>DBMS</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="MySQL skill level" />
+                  <h5>MySQL</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Java skill level" />
+                  <h5>Java</h5>
                 </div>
               </Carousel>
             </div>
