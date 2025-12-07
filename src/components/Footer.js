@@ -22,7 +22,7 @@ export const Footer = () => {
             <span>geetikabajpai03@gmail.com</span>
           </a>
 
-          <a href="https://www.linkedin.com"
+          <a href="https://www.linkedin.com/in/geetika-bajpai-863640249"
             target="_blank"
             rel="noopener noreferrer"
             className="footer-contact-item d-flex align-items-center gap-2">
